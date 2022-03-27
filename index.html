@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=5"/>
+    <link rel="icon" href=./asset/images/devchallenges.png"/>
+    <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <title>Checkout Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+          integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="./asset/css/style.css">
+</head>
+<body>
+<div class="container">
+    <div class="page-title">
+        <h1 class="page-title-h1">Checkout</h1>
+    </div>
+    <div class="page-content">
+        <form class="form-checkout">
+            <div class="form-item">
+                <div class="form-item-title">
+                    <h2>Contact Information</h2>
+                </div>
+                <div class="form-input">
+                    <label class="form-input-label" for="email">E-mail</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="material-icons">email </span>
+                        </div>
+                        <input type="text" class="input-text" id="email" placeholder="Enter your email...">
+                    </div>
+                </div>
+                <div class="form-input">
+                    <label class="form-input-label" for="phone">Phone</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="material-icons">phone </span>
+                        </div>
+                        <input type="text" class="input-text" id="phone" placeholder="Enter your phone...">
+                    </div>
+                </div>
+            </div>
+            <div class="form-item">
+                <div class="form-item-title">
+                    <h2>Shipping address</h2>
+                </div>
+                <div class="form-input">
+                    <label class="form-input-label" for="full-name">Full name</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="material-icons">account_circle </span>
+                        </div>
+                        <input type="text" class="input-text" id="full-name" value="Rodney Cotton"
+                               placeholder="Rodney Cotton">
+                    </div>
+                </div>
+                <div class="form-input">
+                    <label class="form-input-label" for="phone">Address</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="material-icons">home </span>
+                        </div>
+                        <input type="text" class="input-text" id="Address" placeholder="Your address...">
+                    </div>
+                </div>
+                <div class="form-input">
+                    <label class="form-input-label" for="phone">City</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="material-icons">location_city</span>
+                        </div>
+                        <input type="text" class="input-text" id="city" placeholder="Your city...">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="form-input">
+                            <label class="form-input-label" for="phone">Country</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="material-icons">public</span>
+                                </div>
+                                <select name="country" id="country" class="input-select">
+                                    <option value="">Your country...</option>
+                                    <option value="1">Viet Nam</option>
+                                    <option value="2">United States</option>
+                                    <option value="3">United Kingdom</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-input">
+                            <label class="form-input-label" for="phone">Postal Code</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="material-icons">markunread_mailbox</span>
+                                </div>
+                                <input type="text" class="input-text" id="postal_code"
+                                       placeholder="Your postal code...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="save_information">
+                    <label class="form-check-label" for="save_information">Save this information for next time</label>
+                </div>
+            </div>
+            <div class="button-wrap">
+                <button type="submit">Continue</button>
+            </div>
+        </form>
+        <div class="checkout-items">
+            <div class="checkout-item">
+                <div class="checkout-item__image">
+                    <img src="./asset/images/photo1.png" alt="vinatage-backbag">
+                </div>
+                <div class="checkout-item-info">
+                    <div class="checkout-item-name">Vintage Backbag</div>
+                    <div class="checkout-item-price">
+                        <span class="price-sale price">$54.99</span>
+                        <span class="price-base price">$94.99</span>
+                    </div>
+                    <div class="checkout-item-qty">
+                        <button class="checkout-item-qty__prepend">
+                            <span class="material-icons">remove</span>
+                        </button>
+                        <div class="checkout-item-qty__input">
+                            <input type="number" value="1" min="1" class="qty-input" name="qty-product-1">
+
+                        </div>
+                        <button class="checkout-item-qty__prepend">
+                            <span class="material-icons">add</span>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="checkout-item">
+                <div class="checkout-item__image">
+                    <img src="./asset/images/photo2.png" alt="vinatage-backbag">
+                </div>
+                <div class="checkout-item-info">
+                    <div class="checkout-item-wrap">
+                        <div class="checkout-item-name">Levi Shoes</div>
+                        <div class="checkout-item-price">
+                            <span class="price-sale price">$74.99</span>
+                            <span class="price-base price">$124.99</span>
+                        </div>
+                    </div>
+
+                    <div class="checkout-item-qty">
+                        <button class="checkout-item-qty__prepend">
+                            <span class="material-icons">remove</span>
+                        </button>
+                        <div class="checkout-item-qty__input">
+                            <input type="number"  value="1" min="1" class="qty-input" name="qty-product-1">
+                        </div>
+                        <button class="checkout-item-qty__prepend">
+                            <span class="material-icons">add</span>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="checkout-total">
+                <div class="checkout-total-item">
+                    <div class="checkout-total-item__label">Shipping</div>
+                    <div class="checkout-total-item__price">$19</div>
+                </div>
+                <div class="checkout-total-item">
+                    <div class="checkout-total-item__label">Total</div>
+                    <div class="checkout-total-item__price">$148.98</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        Created by <a href="" class="user-name">tatranan</a> - <a href="" class="link-challenge">devChallenge.io</a>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200;300;400;500;600;700;800;900&family=Lora:wght@400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-font: 'Montserrat', sans-serif;
+    --heading-font: 'Lora', serif;
+    --logo-font: 'Crimson Pro', serif;
+
+    --text-lg: 3.6rem;
+    --text-md: 1.8rem;
+    --text-sm: 1.4rem;
+    --text-xsm: 1.2rem;
+    --text-xxsm: 1rem;
+
+    --color-white: #FFFFFF;
+    --color-dark: #4E5150;
+    --color-gray-1: #333;
+    --color-gray-2: #4F4F4F;
+    --color-gray-3: #828282;
+    --color-gray-4: #BDBDBD;
+    --color-gray-5: #E0E0E0;
+    --color-gray-6: #F2F2F2;
+
+    --base-color: #F2994A;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6;
+    box-sizing: border-box;
+    font-family: var(--primary-font);
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.page-title {
+    margin-top: 6.4rem;
+}
+
+.page-title h1 {
+    color: var(--color-dark);
+    font-family: var(--primary-font);
+    font-size: 3.6rem;
+    font-weight: 600;
+    line-height: 4.4rem;
+
+    margin: 0;
+}
+
+.page-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 11.2rem;
+}
+
+.form-checkout {
+
+}
+
+.form-item {
+    margin-top: 5rem;
+}
+
+.form-item-title {
+
+}
+
+.form-item-title h2 {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    font-weight: 600;
+}
+
+.form-input {
+    margin-top: 1.5rem;
+}
+
+.input-group {
+
+    margin-top: .5rem;
+    display: flex;
+    align-items: center;
+    gap: 1.8rem;
+    border: 1px solid var(--color-gray-3);
+    border-radius: 1.2rem;
+    padding: 1.5rem 1rem;
+}
+
+.form-input-label {
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    color: var(--color-gray-2);
+}
+
+.input-group-prepend {
+    display: flex;
+    align-items: center;
+}
+
+.input-group-prepend span {
+    color: var(--color-gray-3);
+}
+
+.input-text {
+    border: none;
+    font-size: 1.6rem;
+    outline: none;
+    width: 100%;
+}
+
+.input-select {
+    border: none;
+    font-size: 1.6rem;
+    outline: none;
+    width: 100%;
+    background-color: transparent;
+    color: var(--color-gray-3);
+}
+
+option {
+    color: var(--color-gray-1);
+}
+
+.input-group:focus-within {
+    outline: 2px solid var(--color-gray-3);
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+
+.form-check {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.form-check input {
+    width: 2.1rem;
+    height: 2.1rem;
+}
+
+.form-check-label {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    color: var(--color-gray-2);
+}
+
+.button-wrap {
+    margin-top: 2.3rem;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.button-wrap button {
+    background-color: var(--base-color);
+    color: var(--color-white);
+    padding: 1.7rem 4.5rem;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-weight: 600;
+    border-radius: 1.2rem;
+    border: none;
+    cursor: pointer;
+}
+
+.checkout-items {
+    min-width:38.3rem ;
+    background-color: var(--color-gray-6);
+    border-radius: 1.2rem;
+    padding: 3rem 3rem 1.5rem 3rem;
+    height: 100%;
+}
+.checkout-item{
+    display: flex;
+    gap: 2rem;
+    margin-top: 3rem;
+
+}
+.checkout-item:first-child{
+    margin-top: 0;
+}
+.checkout-item__image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13.5rem;
+    height: 13.5rem;
+    border-radius: 1.3rem;
+    flex-shrink: 0;
+}
+.checkout-item__image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1.2rem;
+}
+.checkout-item-info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.checkout-item-name{
+    font-size:1.6rem;
+    font-weight: 600;
+    line-height: 2rem;
+    color: var(--color-dark);
+}
+.checkout-item-price{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.price-sale{
+    font-size: 1.6rem;
+    color:var(--base-color);
+    line-height: 2rem;
+    font-weight: 600;
+}
+.price-base{
+    font-size: 1.4rem;
+    text-decoration: line-through;
+    color:var(--color-dark);
+    line-height: 1.5rem;
+    font-weight: 600;
+}
+.checkout-item-qty{
+    margin-top: 2.4rem;
+    padding: 1.5rem 1.3rem;
+    border-radius: 1.2rem;
+    display: inline-flex;
+    align-items:center;
+    gap: 1.5rem;
+    border: 1px solid var(--color-gray-3);
+    align-self: flex-start;
+}
+.checkout-item-qty__prepend,.checkout-item-qty__append{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--color-gray-3);
+    background-color: var(--color-gray-5);
+    border-radius: .4rem;
+}
+.checkout-item-qty__prepend span,.checkout-item-qty__append span{
+    font-size: 2rem;
+    cursor: pointer;
+}
+.qty-input {
+    text-align: center;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    width: 3rem;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-weight: 600;
+    color:var(--color-gray-1);
+}
+.qty-input::-webkit-inner-spin-button,
+.qty-input::-webkit-outer-spin-button {
+ display: none;
+}
+.checkout-total{
+    margin-top: 9.5rem;
+}
+.checkout-total-item{
+    border-top: 1px solid var(--color-gray-4);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.checkout-total-item__label{
+    color: var(--color-gray-1);
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2.2rem;
+}
+.checkout-total-item__price{
+    font-size: 1.4rem;
+    color: var(--color-gray-1);
+    font-weight: 600;
+    line-height: 1.7rem;
+}
+.footer{
+    margin: 16rem 0 2.4rem;
+    display: flex;
+    justify-content: center;
+    font-size: 1.4rem;
+    color: var(--color-gray-4) ;
+    font-weight: 600;
+}
+.user-name{
+    text-decoration: underline;
+    color: var(--color-gray-3);
+    margin: 0 .5rem;
+
+}
+.link-challenge
+{
+    margin: 0 .5rem;
+    text-decoration: none;
+    color: var(--color-gray-4);
+    cursor: pointer;
+}
