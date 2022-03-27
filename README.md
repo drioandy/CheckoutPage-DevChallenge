@@ -55,6 +55,16 @@
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/0J1NxxGhOUYVqihwegfO) was to build an application to complete the given user stories.
 
+- [ ] User story: I can see a page following the given design
+- [x] User story: I can input email, phone, full name, address, city, country, and postal code
+- [x] User story: I can input the number of items
+- [x] User story: I can select at least 3 countries from the dropdown
+- [ ] User story: When I click submit button or press enter, I can see a warning if validation fails
+- [ ] User story: When I click submit button or press enter, I can see a successful alert if validation succeeds
+- [ ] Addition:Validate Field
+- [ ] Addition:Update Quantity
+- [ ] Addition:Show modal after validation succeeds
+
 ## Acknowledgements
 
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
