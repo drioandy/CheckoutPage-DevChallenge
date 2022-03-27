@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=5"/>
-    <link rel="icon" href=./asset/images/devchallenges.png"/>
+    <link rel="icon" href="./asset/images/logo.png"/>
     <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,7 +23,7 @@
         <h1 class="page-title-h1">Checkout</h1>
     </div>
     <div class="page-content">
-        <form class="form-checkout">
+        <form class="form-checkout" id="form-checkout">
             <div class="form-item">
                 <div class="form-item-title">
                     <h2>Contact Information</h2>
@@ -34,7 +34,7 @@
                         <div class="input-group-prepend">
                             <span class="material-icons">email </span>
                         </div>
-                        <input type="text" class="input-text" id="email" placeholder="Enter your email...">
+                        <input type="email" class="input-text" data-error-name="Email" id="email" placeholder="Enter your email...">
                     </div>
                 </div>
                 <div class="form-input">
@@ -43,7 +43,7 @@
                         <div class="input-group-prepend">
                             <span class="material-icons">phone </span>
                         </div>
-                        <input type="text" class="input-text" id="phone" placeholder="Enter your phone...">
+                        <input type="text" class="input-text" data-error-name="Phone" id="phone" placeholder="Enter your phone...">
                     </div>
                 </div>
             </div>
@@ -57,7 +57,7 @@
                         <div class="input-group-prepend">
                             <span class="material-icons">account_circle </span>
                         </div>
-                        <input type="text" class="input-text" id="full-name" value="Rodney Cotton"
+                        <input type="text" class="input-text" data-error-name="Full Name" id="full-name" value="Rodney Cotton"
                                placeholder="Rodney Cotton">
                     </div>
                 </div>
@@ -67,7 +67,7 @@
                         <div class="input-group-prepend">
                             <span class="material-icons">home </span>
                         </div>
-                        <input type="text" class="input-text" id="Address" placeholder="Your address...">
+                        <input type="text" class="input-text " data-error-name="Address" id="address" placeholder="Your address...">
                     </div>
                 </div>
                 <div class="form-input">
@@ -76,7 +76,7 @@
                         <div class="input-group-prepend">
                             <span class="material-icons">location_city</span>
                         </div>
-                        <input type="text" class="input-text" id="city" placeholder="Your city...">
+                        <input type="text" class="input-text" data-error-name="City" id="city" placeholder="Your city...">
                     </div>
                 </div>
                 <div class="row">
@@ -87,7 +87,7 @@
                                 <div class="input-group-prepend">
                                     <span class="material-icons">public</span>
                                 </div>
-                                <select name="country" id="country" class="input-select">
+                                <select name="country" data-error-name="Country" id="country" class="input-select">
                                     <option value="">Your country...</option>
                                     <option value="1">Viet Nam</option>
                                     <option value="2">United States</option>
@@ -103,7 +103,7 @@
                                 <div class="input-group-prepend">
                                     <span class="material-icons">markunread_mailbox</span>
                                 </div>
-                                <input type="text" class="input-text" id="postal_code"
+                                <input type="text" class="input-text" data-error-name="Postal Code" id="postal-code"
                                        placeholder="Your postal code...">
                             </div>
                         </div>
@@ -187,5 +187,6 @@
         Created by <a href="" class="user-name">tatranan</a> - <a href="" class="link-challenge">devChallenge.io</a>
     </div>
 </div>
+<script src="./asset/js/index.js"></script>
 </body>
 </html>

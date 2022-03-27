@@ -25,6 +25,7 @@
     --color-gray-4: #BDBDBD;
     --color-gray-5: #E0E0E0;
     --color-gray-6: #F2F2F2;
+    --color-error: #f26566;
 
     --base-color: #F2994A;
 }
@@ -116,7 +117,17 @@ html {
     outline: none;
     width: 100%;
 }
-
+.input-text_error{
+    outline: 2px solid var(--color-error);
+    border: none;
+}
+.message-error{
+    color:var(--color-error);
+    font-size: 1.3rem;
+    display: inline-block;
+    margin-top: .5rem;
+    font-weight: 500;
+}
 .input-select {
     border: none;
     font-size: 1.6rem;
