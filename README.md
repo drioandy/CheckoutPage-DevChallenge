@@ -38,16 +38,19 @@
 
 ![screenshot](./asset/images/preview.png)
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+- You can see demo in [here](https://tatranan.github.io/CheckoutPage-DevChallenge/)
+- It's been a long time since I used JS so it is very hard to approach again
+- I learn again about js arrow function some function in ES6
+- Link figma modal success [here](https://www.figma.com/file/PUIMNQ5V2N1aaUv39gFJzp/DevChallenge-CheckoutPage?node-id=2%3A2)
+- Work Hard, Play Hard
 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [CSS](https://reactjs.org/)
+- [CSS](https://www.w3schools.com/CSS/)
+- [JS](https://www.w3schools.com/js/)
+- [HTML](https://www.w3schools.com/html/)
 
 ## Features
 
@@ -55,26 +58,27 @@
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/0J1NxxGhOUYVqihwegfO) was to build an application to complete the given user stories.
 
-- [ ] User story: I can see a page following the given design
+- [x] User story: I can see a page following the given design
 - [x] User story: I can input email, phone, full name, address, city, country, and postal code
 - [x] User story: I can input the number of items
 - [x] User story: I can select at least 3 countries from the dropdown
-- [ ] User story: When I click submit button or press enter, I can see a warning if validation fails
-- [ ] User story: When I click submit button or press enter, I can see a successful alert if validation succeeds
-- [ ] Addition:Validate Field
-- [ ] Addition:Update Quantity
-- [ ] Addition:Show modal after validation succeeds
+- [x] User story: When I click submit button or press enter, I can see a warning if validation fails
+- [x] User story: When I click submit button or press enter, I can see a successful alert if validation succeeds
+- [x] Addition:Validate Field by JS
+- [x] Addition:Update Quantity by JS
+- [x] Addition:Show modal after validation succeeds by JS
 
 ## Acknowledgements
 
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
-- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
+Some article help me complete the challenge
+
+- [Removing input background colour for Chrome autocomplete?](https://stackoverflow.com/questions/2781549/removing-input-background-colour-for-chrome-autocomplete)
+- [Regex.test()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test)
+- [Array.prototype.every()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- GitHub [tatranan](https://github.com/tatranan)
+- Youtube [Drio Brotoxo](https://www.youtube.com/channel/UC7CJBfb1bAIg6kCGmXwcoUQ/videos%25257D)
