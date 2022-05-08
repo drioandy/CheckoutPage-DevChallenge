@@ -136,10 +136,10 @@ const stepOne = () => {
     let width = 0;
     window.addEventListener('resize', (e) => {
         width = document.body.offsetWidth;
-        if (width > 375) {
+        if (width > 568) {
             $('.modal').style.width = '70%';
         }
-        if(width < 375) {
+        if(width < 568) {
             $('.modal').style.width = '100%';
         }
     });
@@ -183,7 +183,7 @@ const stepOne = () => {
     $('#table-body').innerHTML = result.join('');
     $('.order-total').innerHTML = calculateTotal();
     $('.modal-footer').classList.remove('hidden');
-    if(width < 375){
+    if(width < 568){
         let subTotal = 0;
         const resultMobile = cartItems.map((item, key) => {
             subTotal += item.sub_total;
@@ -224,7 +224,7 @@ const stepTwo = () => {
     let width = 0;
     window.addEventListener('onresize', () => {
         width = document.body.offsetWidth;
-        if (width > 375) {
+        if (width > 568) {
             $('.modal').style.width = '45%';
         }
     });
